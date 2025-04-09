@@ -1,0 +1,29 @@
+let num1 = Number(prompt("Digite um número"));
+let num2 = Number(prompt("Digite um segundo número"));
+
+// Soma
+function somar(num1, num2) {
+  alert("A soma é " + (num1 + num2));
+}
+
+// Subtração
+function subtrair(num1, num2) {
+  alert("A subtração é " + (num1 - num2));
+}
+
+// Multiplicação
+function multi(num1, num2) {
+  alert("A multiplicação é " + (num1 * num2));
+}
+
+// Divisão
+function divi(num1, num2) {
+  alert("A divisão é " + (num1 / num2));
+}
+
+
+// Resultado
+somar(num1, num2);
+subtrair(num1, num2);
+multi(num1, num2);
+divi(num1, num2);
